@@ -1,0 +1,179 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('js1.avif'); /* Replace 'your-image-path.jpg' with the path to your image */
+    background-size: cover;
+    background-position: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    width: 50%;
+    margin: 30px 50px;
+    padding: 20px;
+    background-color: #f198d6b1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(23, 129, 116, 0.1);
+}
+
+/* Other CSS styles remain the same */
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #dddddd;
+}
+
+th {
+    background-color: #5ed1dc;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#filter {
+    margin-bottom: 20px;
+}
+
+#filter label {
+    font-weight: bold;
+}
+
+#filter select {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+#add-button {
+    margin-left: 30%;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-bottom: 2%;
+    border: none;
+    border-radius: 5px;
+    background-color: #5ed1dc;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#add-button:hover {
+    background-color: #45a049;
+}
+
+#add-form {
+    display: none;
+}
+
+input {
+    padding: 4px 8px;
+    margin-bottom: 3%;
+    border-radius: 5px;
+}
+
+#submit-button {
+    padding: 6px 8px;
+    background-color: #000000;
+    border-radius: 5px;
+    border: none;
+    margin-left: 3%;
+    color: #dddddd;
+    font-size: 16px;
+    cursor: pointer;
+    transition: ease;
+}
+
+#submit-button:hover {
+    background-color: #45a049;
+}
+
+.stopwatch-container {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid #f198d69a;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 30px 50px; 
+}
+
+
+.stopwatch {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.stopwatch button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.stopwatch button:hover {
+    background-color: #45a049;
+}
+
+#start-stop-button,
+#reset {
+
+    padding: 6px 8px;
+    background-color:  #5ed1dc;
+    border-radius: 5px;
+    border: none;
+    margin-left: 3%;
+    margin-right: 3%;
+    color: #dddddd;
+    font-size: 16px;
+    cursor: pointer;
+    transition: ease;
+}
+
+
+.edit-button,
+.delete-button {
+    padding: 8px 12px;
+    margin-right: 5px;
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+    background-color: #5ed1dc;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.edit-button:hover,
+.delete-button:hover {
+    background-color: #2980b9;
+}

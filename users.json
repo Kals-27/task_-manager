@@ -1,0 +1,24 @@
+{
+    "users":[
+        {
+            "name":"Kaleeswari",
+            "email":"kaleeswari@gmail.com",
+            "password":"12345678"
+        },
+        {
+            "name":"Gayathri",
+            "email":"Gayathri@gmail.com",
+            "password":"12345678"
+        },
+        {
+            "name":"Vaishnavi",
+            "email":"Vaishnavi@gmail.com",
+            "password":"12345678"
+        },
+        {
+            "name":"Renu",
+            "email":"Renu@gmail.com",
+            "password":"12345678"
+        }
+    ]
+}

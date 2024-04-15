@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tasks List</title>
+<link rel="stylesheet" href="task.css">
+</head>
+<body>
+<div class="container">
+    <h1>Tasks List</h1>
+
+    <div id="filter">
+        <label for="search">Filter Tasks</label>
+        <input type="text" id="search" placeholder="type here...">
+    </div>
+    <button id="add-button">Add New Task</button>
+
+    <form id="add-form" style="display: none;">
+        <input type="text" id="name" placeholder="Task Name">
+        <input type="text" id="description" placeholder="Description">
+        <button type="button" id="submit-button">Add</button>
+    </form>
+    <table id="data">
+        <thead>
+            <tr>
+                <th>Task</th>
+                <th>Description</th>
+                <th>Duration</th>
+                <th>Options</th>
+            </tr>
+        </thead>
+        <tbody>    
+        </tbody>
+    </table>
+</div>
+<div class="stopwatch-container">
+    <div class="stopwatch" id="stopwatch">00:00:00</div>
+    <div style="display: flex;flex-direction: row;">
+        <button id="start-stop-button">Start</button>
+        <button id="reset">Reset</button>
+    </div>
+</div>
+<script src="task.js"></script>
+
+</body>
+</html>
